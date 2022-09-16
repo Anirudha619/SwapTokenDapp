@@ -1,0 +1,70 @@
+body{
+  background-color: #272523;
+}
+
+h1{
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container{
+  background-color: #1a1816;
+  margin : 0 auto;
+  max-width : 500px;
+  height : 300px;
+  width : 80%;
+  margin-top : 5%;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #252322;
+  color : white;
+}
+
+label{
+  display: block;
+  color: orange;
+}
+
+button{
+  background-color: #fb6c04;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #fb6c04;
+}
+
